@@ -1,4 +1,5 @@
-Krzysztof 20
-Janusz 40
-Wojciech 20
-Marcin 34 
+Wojciech 21 12456
+Kamil 21 22
+Bartosz 19 125467788
+Norbert 5 1245467
+Kacper 68 678904

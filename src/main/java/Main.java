@@ -14,7 +14,7 @@ class Main {
         System.out.println("0 - Wyjdź");
 
         int option = scanner.nextInt();
-        scanner.nextLine(); 
+        scanner.nextLine(); // czyszczenie bufora po liczbie
 
         switch (option) {
           case 1:
@@ -22,8 +22,11 @@ class Main {
             String name = scanner.nextLine();
             System.out.println("Podaj wiek:");
             int age = scanner.nextInt();
+            System.out.println("Podaj numer indeksu:");
+            int indexNumber = scanner.nextInt();
             scanner.nextLine();
-            s.addStudent(new Student(name, age));
+
+            s.addStudent(new Student(name, age, indexNumber));
             break;
           case 2:
             var students = s.getStudents();
